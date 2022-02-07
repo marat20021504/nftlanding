@@ -1,0 +1,101 @@
+.section-1 {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    overflow: hidden;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            b {
+                font-family: 'Inter', sans-serif;
+                font-size: 28px;
+                line-height: 34px;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+                margin-left: 12px;
+            }
+        }
+
+        .header-text a {
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            line-height: 100%;
+            color: #CCCCCC;
+            margin-left: 28px;
+            transition: .5s;
+
+            &:last-child {
+                color: #FF3998;
+            }
+
+            &:hover {
+                color: #FF3998;
+            }
+        }
+
+    }
+
+    .text-img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .section-1-texts {
+            width: 50%;
+            span {
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.1em;
+                color: #FF3998;
+            }
+
+            h1 {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 96px;
+                line-height: 116px;
+                color: #FFFFFF;
+                margin-top: 20px;
+            }
+
+            p {
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                line-height: 150%;
+                color: #CCCCCC;
+                margin: 32px 0 50px 0;
+            }
+
+            .btn {
+                padding: 22px 56px;
+                border: 4px solid #ff7438;
+                border-radius: 50px;
+                font-family: 'Inter', sans-serif;
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        .section-1-image {
+            width: 50%;
+        }
+
+    }
+
+}
